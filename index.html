@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Painter</title>
+</head>
+
+<body>
+  <div class="inner">
+    <h1 class="inner__title">Simple Paint
+    </h1>
+    <div class="painter">
+      <h2 class="painter__title">Colour</h2>
+      <input type="color" id="color-picker" value="#ffc2b4" class="painter__color-picker">
+      <h2 class="painter__title">Size:
+        <span class="painter__size-count" id="showSize">1</span>
+        px
+      </h2>
+      <input class="painter__size" id="change-size" type="range" min="1" max="50" value="1" step="1" >
+      <input class="painter__btn btn--save" type="button" value="Save" id="save">
+      <button class="painter__btn btn--download">
+        <a id="download">Download</a>
+      </button>
+
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

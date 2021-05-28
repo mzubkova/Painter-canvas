@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #fff;
+  font: 400 1rem "Noto Sans Jp", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  width: 100%;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+canvas {
+  cursor: crosshair;
+  padding: 0;
+  margin: 100px auto 0;
+  display: block;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.inner {
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+  background-color: #9dbeb9;
+}
+
+.inner__title {
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.painter {
+  background-color: #194350;
+  border-radius: 5px;
+  max-width: 250px;
+  width: 100%;
+  height: 500px;
+  margin: 100px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 15px;
+  position: fixed;
+  right: 15%;
+  top: 0;
+}
+
+.painter__title {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.painter__color-picker {
+  background: transparent;
+  height: 50px;
+  width: 50px;
+}
+
+.painter__size {
+  margin: 10px 0 0;
+}
+
+.painter__btn {
+  font-family: "Noto Sans Jp", sans-serif;
+  font-size: 1.4rem;
+  width: 100%;
+  height: 30px;
+  color: #194350;
+  background-color: #ffc2b4;
+  border-radius: 7px;
+  margin: 30px 0 0 0;
+  cursor: pointer;
+}
+
+.btn--save {
+  background-color: #ff8882;
+}
+
+.btn--load {
+  background-color: #ffc2b4;
+}
+
+.btn--download {
+  font-family: "Noto Sans Jp", sans-serif;
+  font-size: 1.4rem;
+  background-color: #9dbeb9;
+  color: #194350;
+  text-align: center;
+  height: 30px;
+}
